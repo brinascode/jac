@@ -1,4 +1,6 @@
 import React from 'react';
+import {Route,Switch} from "react-router";
+import {Link} from "react-router-dom"
 import AppContext from "./AppContext";
 
 import Header from "../components/Header.jsx"
@@ -33,7 +35,7 @@ export default class App extends React.Component {
                     <Header/>
                     <Banner />
                     <Page />
-                    <Footer />
+                    <Footer />   
                 </div>
             </AppContext.Provider>
         );

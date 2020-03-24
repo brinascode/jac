@@ -6,8 +6,8 @@ var bannerStyle={
     backgroundSize:"100% 100%",
     backgroundPosition:"top",
     backgroundRepeat:"no-repeat",
-    height:"47vw",
-    backgroundColor:"black",
+    height:"40vw", //47 or 39
+    backgroundColor:"black"
 }
 
 function Banner(){

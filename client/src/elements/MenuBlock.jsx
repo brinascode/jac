@@ -7,7 +7,7 @@ export default function MenuBlock(props){
         width:"15vw",
         height:"5vw",
         padding:"4vw",
-        backgroundImage:`linear-gradient(to right, ${props.colors[0]}, ${props.colors[1]})`,
+        backgroundImage:`linear-gradient(to bottom, ${props.colors[0]}, ${props.colors[1]})`,
         position:"relative",
         display:"flex",
         justifyContent:"center"

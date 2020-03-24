@@ -22,15 +22,17 @@ export default class Page extends React.Component{
         return(
             <div style={pageStyle}>
                 <MenuBlock title="Advice" colors={["#00c4cc","#7c2ae8"]}/>
-                <MenuBlock title="Prayer Board" colors={["#43cea2","#185a9d"]}/>
-                <MenuBlock title="Online Churches" colors={["orange","yellow"]}/>
-                <MenuBlock title="Donate" colors={["#56ab2f","#a8e063"]}/>
+                <MenuBlock title="Prayer Board" colors={["#00c4cc","#7c2ae8"]}/>
+                <MenuBlock title="Online Churches" colors={["#00c4cc","#7c2ae8"]}/>
+                <MenuBlock title="Donate" colors={["#00c4cc","#7c2ae8"]}/>
 
-                  {/* <MenuBlock title="Advice" colors={["#cb356b","#bd3f32"]}/>
-                <MenuBlock title="Prayer Board" colors={["#43cea2","#185a9d"]}/>
-                <MenuBlock title="Online Churches" colors={["orange","yellow"]}/>
-                <MenuBlock title="Donate" colors={["#56ab2f","#a8e063"]}/> */}
+                
             </div>
         )
     }
 }
+
+ {/* <MenuBlock title="Advice" colors={["#cb356b","#bd3f32"]}/>
+                <MenuBlock title="Prayer Board" colors={["#43cea2","#185a9d"]}/>
+                <MenuBlock title="Online Churches" colors={["orange","yellow"]}/>
+                <MenuBlock title="Donate" colors={["#56ab2f","#a8e063"]}/> */}
