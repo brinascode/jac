@@ -1,18 +1,27 @@
 import React from "react"
 
 var headerStyle={
-    fontSize:"2vw",
+    fontSize:"3vw",
+    fontWeight:"5px",
     textAlign:"left",
+    fontFamily: 'Dosis',
     padding:"1vw",
-    fontFamily: 'Pacifico',
-    position:"fixed",
+    position:"sticky",
+    top:"0px",
     backgroundColor:"white",
-    width:"100vw"
+    color:"black",
+    width:"100vw",
+    border:"solid white",
+    zIndex:"2",
+    
 }
+
 export default function Header(){
         return(
             <header style={headerStyle}>
-                Jesus above Corona
+               
+                       <strong> Jesus above Corona </strong>
+               
             </header>
         )
 }
